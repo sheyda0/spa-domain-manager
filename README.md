@@ -1,12 +1,31 @@
-# React + Vite
+# 🌐 Domain Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page application (SPA) to manage domain entries. Built with React, Ant Design, Redux Toolkit, and RTK Query.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new domains with status and validation
+- List all domains with:
+  - Verification status
+  - Activation status
+- Sort and search through domains
+- Perform actions:
+  - View domain
+  - Verify domain
+  - Install tracking script
+  - Delete domain
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – UI library
+- **Ant Design** – UI components
+- **Redux Toolkit** – State management
+- **RTK Query** – Data fetching
+- **Tailwind CSS** – Utility-first styling (optional, if used)
+
+```bash
+git clone https://github.com/your-username/domain-dashboard.git
+cd domain-dashboard
+npm install
+npm start
+```
