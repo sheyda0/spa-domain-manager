@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Select option */
+.large-select-option .ant-select-selector {
+  padding: 1.4rem 1rem !important;
+}
+
+/* Input */
+.large-input input::placeholder {
+  color: gray !important;
+}
+
+/* Domains tabls */
+.domains-table-container thead tr th {
+  background-color: white !important;
+  padding: 0.7rem 1rem !important;
+}
+
+.domains-table-container .ant-table {
+  border: 1px solid #efefef;
+}
+
+.domains-table-container tr th {
+  font-weight: normal !important;
+  color: gray !important;
+}
+
+.domains-table-container tr th::before {
+  width: 0 !important;
+}
