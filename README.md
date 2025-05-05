@@ -21,7 +21,7 @@ A single-page application (SPA) to manage domain entries. Built with React, Ant 
 - **Ant Design** – UI components
 - **Redux Toolkit** – State management
 - **RTK Query** – Data fetching
-- **Tailwind CSS** – Utility-first styling (optional, if used)
+- **Tailwind CSS** – Utility-first styling
 
 ```bash
 git clone https://github.com/your-username/domain-dashboard.git
